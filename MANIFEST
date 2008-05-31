@@ -1,7 +1,11 @@
 Changes
 lib/Digest/CMAC.pm
+lib/Digest/OMAC/Base.pm
+lib/Digest/OMAC1.pm
+lib/Digest/OMAC2.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
+MANIFEST.SKIP
 META.yml
 README
 t/00-load.t
@@ -21,5 +25,4 @@ t/13-aes256-16byte-string.t
 t/14-aes256-40byte-string.t
 t/15-aes256-64byte-string.t
 t/misty1.t
-#t/camellia128.t
 TODO
