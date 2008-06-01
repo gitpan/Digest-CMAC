@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Digest-CMAC
-version:             0.03
+version:             0.04
 abstract:            The One-key CBC MAC message authentication code.
 license:             ~
 author:              
@@ -10,6 +10,7 @@ distribution_type:   module
 requires:     
     Crypt::Rijndael:               0
     MIME::Base64:                  0
+    Test::More:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
